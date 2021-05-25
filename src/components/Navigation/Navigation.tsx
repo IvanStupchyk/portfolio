@@ -7,11 +7,11 @@ export const Navigation = () => {
         <div className={s.navigationContainer}>
             <nav>
                 <ul>
-                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/portfolio/home">Home</NavLink></li>
-                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/portfolio/about">About</NavLink></li>
-                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/portfolio/portfolio">Portfolio</NavLink></li>
-                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/portfolio/skills">Skills</NavLink></li>
-                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/portfolio/contact">Contact</NavLink></li>
+                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/portfolio">Home</NavLink></li>
+                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/about">About</NavLink></li>
+                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/port">Portfolio</NavLink></li>
+                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/skills">Skills</NavLink></li>
+                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/contact">Contact</NavLink></li>
                 </ul>
             </nav>
         </div>
