@@ -44,6 +44,7 @@ h1 {
   background-image: url("../../../media/images/home-page/avatar.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @keyframes morph {
@@ -63,6 +64,14 @@ h1 {
 .socialNetwork {
   height: 20px;
   width: 20px;
+  a {
+    img {
+      transition: .3s;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
 }
 
 .socialNetworksIcons {

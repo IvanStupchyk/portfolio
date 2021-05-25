@@ -21,6 +21,14 @@
   margin-right: 15px;
   width: 15px;
   height: 15px;
+
+  img {
+    transition: .3s;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
 }
 
 @import "src/media.scss";
