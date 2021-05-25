@@ -1,0 +1,26 @@
+.headerContainer {
+  padding: 20px 40px;
+  width: 100%;
+  height: auto;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.headerIcons {
+  display: flex;
+}
+
+.iconContainer {
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+}
+
+@import "src/media.scss";
