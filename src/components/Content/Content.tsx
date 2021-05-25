@@ -15,11 +15,11 @@ export const Content = () => {
     return (
         <div className={s.contentContainer}>
             {a}
-            <Route path={"/home"} render={() => <Home />}/>
-            <Route path={"/about"} render={() => <About />}/>
-            <Route path={"/port"} render={() => <Portfolio />}/>
-            <Route path={"/skills"} render={() => <Skills />}/>
-            <Route path={"/contact"} render={() => <Contact />}/>
+            <Route path={"/portfolio/home"} render={() => <Home />}/>
+            <Route path={"/portfolio/about"} render={() => <About />}/>
+            <Route path={"/portfolio/portfolio"} render={() => <Portfolio />}/>
+            <Route path={"/portfolio/skills"} render={() => <Skills />}/>
+            <Route path={"/portfolio/contact"} render={() => <Contact />}/>
         </div>
     )
 }
