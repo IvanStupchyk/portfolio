@@ -12,7 +12,7 @@ export const Content = () => {
         <div className={s.contentContainer}>
             <Route path={"/home"} render={() => <Home />}/>
             <Route path={"/about"} render={() => <About />}/>
-            <Route path={"/portfolio"} render={() => <Portfolio />}/>
+            <Route path={"/port"} render={() => <Portfolio />}/>
             <Route path={"/skills"} render={() => <Skills />}/>
             <Route path={"/contact"} render={() => <Contact />}/>
         </div>

@@ -9,7 +9,7 @@ export const Navigation = () => {
                 <ul>
                     <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/home">Home</NavLink></li>
                     <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/about">About</NavLink></li>
-                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/portfolio">Portfolio</NavLink></li>
+                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/port">Portfolio</NavLink></li>
                     <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/skills">Skills</NavLink></li>
                     <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/contact">Contact</NavLink></li>
                 </ul>
