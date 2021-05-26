@@ -1,0 +1,50 @@
+.contactContainer {
+  max-width: 880px;
+  width: 100%;
+  padding: 50px 10px;
+  margin: 0 auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+form {
+  font-style: italic;
+  ul {
+    li {
+      margin-bottom: 30px;
+      button {
+        padding: 5px;
+        height: 50px;
+        max-width: 190px;
+        width: 100%;
+        text-decoration: none;
+        color: #fff;
+        background-color: #000;
+        transition: all .3s ease;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}
+
+textarea {
+  padding: 10px;
+  height: 120px;
+  width: 100%;
+  resize: none;
+  border: 1px solid rgba(0,0,0,.2);
+  background-color: transparent;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.2);
+  background-color: transparent;
+}
