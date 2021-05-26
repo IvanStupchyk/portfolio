@@ -22,9 +22,9 @@ export const About = () => {
                         <li><span className={s.nameGraph}>Birthday:</span><span>07.10.1992</span></li>
                         <li><span className={s.nameGraph}>Age:</span><span>28</span></li>
                         <li><span className={s.nameGraph}>Address:</span><span>Brest, Belarus</span></li>
+                        <li><span className={s.nameGraph}>Study:</span><span>Gomel State Technical University</span></li>
                         <li><span className={s.nameGraph}>Email:</span> <a href={'mailto:vanyastupchuk@gmail.com'}>vanyastupchuk@gmail.com</a></li>
                         <li><span className={s.nameGraph}>Phone:</span><a href={'tel:+375297915465'}>+375 (29) 791-54-65</a></li>
-                        <li><span className={s.nameGraph}>Study:</span><span>Gomel State Technical University</span></li>
                         <li><span className={s.nameGraph}>LinkedIn:</span><a href={'https://www.linkedin.com/in/ivan-stupchuk/'}>click here</a></li>
                     </ul>
                 </div>

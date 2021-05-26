@@ -48,6 +48,7 @@ form {
 
 .btnSubmit[disabled] {
   opacity: .2;
+  cursor: default;
 
   &:hover {
     letter-spacing: 0;
