@@ -1,50 +1,59 @@
 .skillsPageContainer {
-    padding: 0 10px;
-    margin: 0 auto;
-    max-width: 950px;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 950px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 h4 {
-    font-size: 37px;
-    font-weight: 800;
+  font-size: 37px;
+  font-weight: 800;
 }
 
 .skillsContainer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .firstThreeBlockSkills {
-    display: flex;
+  display: flex;
 }
 
 .firstSkillsBlock, .secondSkillsBlock, .thirdSkillsBlock {
-    margin: 30px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 3px solid black;
-    border-radius: 15px;
-    span {
-        margin-bottom: 15px;
-    }
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #cecece;
+  border-radius: 15px;
+
+  span {
+    margin-bottom: 15px;
+  }
 }
 
 .fourthSkillsBlock {
-    margin: 30px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    border: 3px solid black;
-    border-radius: 15px;
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #cecece;
+  border-radius: 15px;
+  span {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
+
+@import "src/media.scss";

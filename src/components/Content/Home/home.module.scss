@@ -1,6 +1,9 @@
 .homeContainer {
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84vh;
 }
 
 .homePageContentContainer {
@@ -74,3 +77,5 @@ h1 {
     margin-right: 20px;
   }
 }
+
+@import "src/media.scss";

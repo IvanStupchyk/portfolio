@@ -36,25 +36,25 @@ export const Portfolio = () => {
                 <div className={s.tabsContainer}>
                     <ul>
                         <li>
-                            <a onClick={changeFilterValueOnAll} className={`${filter === 'all' && s.activeTab}`}>All</a>
+                            <span onClick={changeFilterValueOnAll} className={`${filter === 'all' && s.activeTab}`}>All</span>
                         </li>
                         <li>
-                            <a onClick={changeFilterValueOnReact} className={`${filter === 'react' && s.activeTab}`}>
+                            <span onClick={changeFilterValueOnReact} className={`${filter === 'react' && s.activeTab}`}>
                                 React
                                 TS/Redux
-                            </a>
+                            </span>
                         </li>
                         <li>
-                            <a onClick={changeFilterValueOnHTML} className={`${filter === 'html' && s.activeTab}`}>
+                            <span onClick={changeFilterValueOnHTML} className={`${filter === 'html' && s.activeTab}`}>
                                 HTML
                                 CSS
-                            </a>
+                            </span>
                         </li>
                         <li>
-                            <a onClick={changeFilterValueOnNode} className={`${filter === 'node' && s.activeTab}`}>
+                            <span onClick={changeFilterValueOnNode} className={`${filter === 'node' && s.activeTab}`}>
                                 Node.js
                                 Webpack
-                            </a>
+                            </span>
                         </li>
                     </ul>
                 </div>
@@ -62,8 +62,8 @@ export const Portfolio = () => {
             <div className={s.contentPortfolioContainer}>
                 {
                     state.filter(wrk => filter !== 'all' ? wrk.filter === filter : wrk)
-                        .map(wrk => {
-                            return <div className={s.workContainer}>
+                        .map((wrk, i) => {
+                            return <div className={s.workContainer} key={i}>
                                 <a href={wrk.link}>See the project</a>
                                 <img src={wrk.photo} alt={'screen work from portfolio'}/>
                             </div>

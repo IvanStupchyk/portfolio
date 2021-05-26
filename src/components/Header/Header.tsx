@@ -16,19 +16,19 @@ export const Header = () => {
             <div>
                 <ul className={s.headerIcons}>
                     <li className={s.iconContainer}>
-                        <NavLink to="/home"><img alt={'home page'} src={homePageIcon}/></NavLink>
+                        <NavLink to="/portfolio" activeClassName={s.activeTabHeader}><img alt={'home page'} src={homePageIcon}/></NavLink>
                     </li>
                     <li className={s.iconContainer}>
-                        <NavLink to="/about" ><img alt={'about page'} src={AboutPageIcon}/></NavLink>
+                        <NavLink to="/about" activeClassName={s.activeTabHeader}><img alt={'about page'} src={AboutPageIcon}/></NavLink>
                     </li>
                     <li className={s.iconContainer}>
-                        <NavLink to="/portfolio" ><img alt={'portfolio page'} src={PortfolioPageIcon}/></NavLink>
+                        <NavLink to="/port" activeClassName={s.activeTabHeader}><img alt={'portfolio page'} src={PortfolioPageIcon}/></NavLink>
                     </li>
                     <li className={s.iconContainer}>
-                        <NavLink to="/skills" ><img alt={'skills page'} src={skillsPageIcon}/></NavLink>
+                        <NavLink to="/skills" activeClassName={s.activeTabHeader}><img alt={'skills page'} src={skillsPageIcon}/></NavLink>
                     </li>
                     <li className={s.iconContainer}>
-                        <NavLink to="/contact" ><img alt={'contact page'} src={contactPageIcon}/></NavLink>
+                        <NavLink to="/contact" activeClassName={s.activeTabHeader}><img alt={'contact page'} src={contactPageIcon}/></NavLink>
                     </li>
                 </ul>
             </div>

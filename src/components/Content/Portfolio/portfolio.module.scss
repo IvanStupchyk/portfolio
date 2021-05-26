@@ -39,7 +39,7 @@ h3 {
         font-weight: bold;
       }
 
-      a {
+      span {
         color: #767676;
       }
     }
@@ -54,12 +54,12 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
+  justify-items: center;
 }
 
 .workContainer {
   position: relative;
-  height: 400px;
-  max-width: 400px;
+  height: 280px;
   background-color: black;
   width: 100%;
   transition: .4s;
@@ -95,13 +95,17 @@ h3 {
 
   &:hover {
     transform: scale(1.03);
+
     a {
       z-index: 10;
       top: 50%;
     }
+
     img {
       opacity: .8;
     }
   }
 }
+
+@import "src/media.scss";
 

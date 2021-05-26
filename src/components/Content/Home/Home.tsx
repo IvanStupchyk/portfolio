@@ -8,7 +8,7 @@ import githubIcon from '../../../media/images/svg-icon/home-page/github.svg'
 export const Home = () => {
     return (
         <div className={s.homeContainer}>
-            <div className={s.avatarContainer}></div>
+            <div className={s.avatarContainer} />
             <div className={s.homePageContentContainer}>
                 <h1>Ivan Stupchuk</h1>
                 <p className={s.myDescription}>Hello, I'm Front-end developer from Belarus. Nice to meet you</p>

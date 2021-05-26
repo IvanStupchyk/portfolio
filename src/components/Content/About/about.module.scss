@@ -1,9 +1,8 @@
 .aboutContainer {
   max-width: 880px;
   width: 100%;
-  padding: 50px 10px;
+  padding: 45px 10px;
   margin: 0 auto;
-  height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -13,6 +12,7 @@
   margin-bottom: 40px;
   width: 100%;
   height: 350px;
+
   img {
     width: 100%;
     height: 100%;
@@ -29,6 +29,7 @@
   margin-right: 50px;
   max-width: 455px;
   width: 100%;
+
   p {
     color: #767676;
   }
@@ -36,16 +37,20 @@
 
 .aboutContentRightBlock {
   color: #767676;
+
   ul {
     padding: 0;
     display: flex;
     flex-direction: column;
+
     li {
       margin-bottom: 5px;
+
       a {
         color: #000;
         font-weight: bold;
         text-decoration: underline;
+
         &:hover {
           color: #17789e;
         }
@@ -59,3 +64,5 @@
   color: #000;
   font-weight: bold;
 }
+
+@import "src/media.scss";

@@ -5,7 +5,7 @@
   display: none;
   align-items: center;
   justify-content: space-between;
-
+  background-color: #ffffff;
 }
 
 .logo {
@@ -18,9 +18,13 @@
 }
 
 .iconContainer {
-  margin-right: 15px;
+  margin-right: 17px;
   width: 15px;
   height: 15px;
+
+  a {
+    display: flex;
+  }
 
   img {
     transition: .3s;
@@ -28,6 +32,12 @@
     &:hover {
       transform: scale(1.5);
     }
+  }
+}
+
+.activeTabHeader {
+  img {
+    transform: scale(1.5);
   }
 }
 

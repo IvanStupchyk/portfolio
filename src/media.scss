@@ -1,9 +1,217 @@
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1260px) {
+  .contentContainer {
+    padding: 0 10px;
+  }
+
   .headerContainer {
     display: flex;
   }
 
   .navigationContainer {
     display: none;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 920px) {
+
+  .homeContainer {
+    flex-direction: column;
+  }
+
+  .homePageContentContainer {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myDescription {
+    text-align: center;
+  }
+
+  .aboutContent {
+    flex-direction: column;
+  }
+
+  .aboutContentLeftBlock {
+    max-width: none;
+  }
+
+  .topicContainer {
+    flex-direction: column;
+  }
+
+  .firstThreeBlockSkills {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .headerContainer {
+    padding: 10px;
+  }
+
+  .avatarContainer {
+    height: 250px;
+    width: 250px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .myDescription {
+    max-width: 350px;
+    font-size: 13px;
+  }
+
+  .aboutContentLeftBlock {
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  .portfolioContainer {
+    padding: 30px 0 50px;
+  }
+
+  .workContainer {
+
+    a {
+      width: 100px;
+      height: 30px;
+      font-size: 10px;
+    }
+  }
+
+  .workContainer {
+    height: 180px;
+  }
+}
+
+@media all and (max-width: 520px) {
+  .logo {
+    font-size: 17px;
+  }
+
+  .iconContainer {
+    width: 13px;
+    height: 13px;
+  }
+
+  h2 {
+    max-width: 260px;
+    text-align: center;
+  }
+
+  .wallpaperContainer {
+    display: none;
+  }
+
+  .aboutContentLeftBlock {
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      text-align: center;
+    }
+  }
+
+  h3, h4, h5 {
+    font-size: 28px;
+  }
+
+  .btnSubmit {
+    height: 42px;
+    max-width: 155px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .logo {
+    font-size: 13px;
+  }
+
+  .iconContainer {
+    margin-right: 13px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .avatarContainer {
+    height: 150px;
+    width: 150px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .myDescription {
+    line-height: 19px;
+  }
+
+  .contentContainer, .aboutContentLeftBlock p {
+    font-size: 12px;
+  }
+
+  h2 {
+    margin: 5px;
+  }
+
+  .aboutContainer {
+    padding: 15px;
+  }
+
+  .tabsContainer {
+    ul {
+      li {
+        margin-right: 10px;
+        line-height: 16px;
+        width: 60px;
+      }
+    }
+  }
+
+  .workContainer {
+    height: 110px;
+  }
+
+  h2 {
+    max-width: 210px;
+  }
+
+  h3, h4, h5 {
+    font-size: 24px;
+  }
+
+  .portfolioContainer {
+    padding: 10px 0 50px;
+  }
+
+  .skillsPageContainer {
+    font-size: 15px;
+  }
+
+  .contactContainer {
+    padding: 10px;
+  }
+
+  form {
+    ul {
+      li {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }

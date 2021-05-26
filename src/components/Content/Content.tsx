@@ -1,5 +1,5 @@
-import React, {useEffect} from "react"
-import {BrowserRouter, NavLink, Route} from 'react-router-dom';
+import React from "react"
+import {Route} from 'react-router-dom';
 import s from './content.module.scss'
 import {Home} from "./Home/Home";
 import {About} from "./About/About";
