@@ -1,6 +1,8 @@
 import React, {useState} from "react"
 import s from './portfolio.module.scss'
-import node from '../../../media/images/portfolio-page/node.png'
+import nodeProject from '../../../media/images/portfolio-page/node.png'
+import walkingDogHTMLCSS from '../../../media/images/portfolio-page/walkingDogHTMLCSS.png'
+import creativeAgencyHTMLCSS from '../../../media/images/portfolio-page/creativeAgencyHTMLCSS.png'
 
 export const Portfolio = () => {
     type FilterType = 'all' | 'react' | 'html' | 'node'
@@ -14,12 +16,12 @@ export const Portfolio = () => {
     type stateType = Array<workType>
 
     const state: stateType = [
-        {filter: 'react', link: "0", photo: 'fdf'},
-        {filter: 'react', link: "1", photo: 'fdf'},
-        {filter: 'react', link: "2", photo: 'fdf'},
-        {filter: 'html', link: "3", photo: 'fdf'},
-        {filter: 'html', link: "4", photo: 'fdf'},
-        {filter: 'node', link: "https://github.com/IvanStupchyk/final-javascript-project", photo: node},
+        {filter: 'react', link: '0', photo: 'fdf'},
+        {filter: 'react', link: '1', photo: 'fdf'},
+        {filter: 'react', link: '2', photo: 'fdf'},
+        {filter: 'html', link: 'https://ivanstupchyk.github.io/creative-agency/dist/index.html', photo: creativeAgencyHTMLCSS},
+        {filter: 'html', link: 'https://ivanstupchyk.github.io/walking-dog/', photo: walkingDogHTMLCSS},
+        {filter: 'node', link: 'https://github.com/IvanStupchyk/final-javascript-project', photo: nodeProject},
     ]
 
     const [filter, setFilter] = useState<FilterType>('all')
@@ -64,9 +66,9 @@ export const Portfolio = () => {
                     state.filter(wrk => filter !== 'all' ? wrk.filter === filter : wrk)
                         .map((wrk, i) => {
                             return <div className={s.workContainer} key={i}>
-                                <a href={wrk.link}>See the project</a>
-                                <img src={wrk.photo} alt={'screen work from portfolio'}/>
-                            </div>
+                                        <a href={wrk.link}>See the project</a>
+                                        <img src={wrk.photo} alt={'screen work from portfolio'}/>
+                                </div>
                         })
                 }
             </div>
