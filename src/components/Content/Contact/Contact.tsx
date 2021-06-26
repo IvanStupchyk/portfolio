@@ -26,7 +26,7 @@ export const Contact = () => {
     }
 
     if (redirect) {
-        return <Redirect to={'/portfolio'}/>
+        return <Redirect to={'/'}/>
     }
 
     return (
