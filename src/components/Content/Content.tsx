@@ -10,7 +10,7 @@ import {Contact} from "./Contact/Contact";
 export const Content = () => {
     return (
         <div className={s.contentContainer}>
-            <Route path={"/portfolio"} render={() => <Home />}/>
+            <Route path={"/"} exact render={() => <Home />}/>
             <Route path={"/about"} render={() => <About />}/>
             <Route path={"/port"} render={() => <Portfolio />}/>
             <Route path={"/skills"} render={() => <Skills />}/>

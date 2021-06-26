@@ -7,7 +7,7 @@ export const Navigation = () => {
         <div className={s.navigationContainer}>
             <nav>
                 <ul>
-                    <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/portfolio">Home</NavLink></li>
+                    <li><NavLink className={s.tub} activeClassName={s.activeLink} exact to="/">Home</NavLink></li>
                     <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/about">About</NavLink></li>
                     <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/port">Portfolio</NavLink></li>
                     <li><NavLink className={s.tub} activeClassName={s.activeLink} to="/skills">Skills</NavLink></li>
