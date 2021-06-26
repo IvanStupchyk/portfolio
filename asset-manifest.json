@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.56190026.chunk.css",
-    "main.js": "/portfolio/static/js/main.ca528b5c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ca528b5c.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.2606e8df.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2606e8df.js.map",
-    "static/js/2.5c9c18ec.chunk.js": "/portfolio/static/js/2.5c9c18ec.chunk.js",
-    "static/js/2.5c9c18ec.chunk.js.map": "/portfolio/static/js/2.5c9c18ec.chunk.js.map",
-    "static/js/3.0da63cf0.chunk.js": "/portfolio/static/js/3.0da63cf0.chunk.js",
-    "static/js/3.0da63cf0.chunk.js.map": "/portfolio/static/js/3.0da63cf0.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8b4e2331.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8b4e2331.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.cb4b8653.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.cb4b8653.js.map",
+    "static/js/2.42b4211e.chunk.js": "/portfolio/static/js/2.42b4211e.chunk.js",
+    "static/js/2.42b4211e.chunk.js.map": "/portfolio/static/js/2.42b4211e.chunk.js.map",
+    "static/js/3.d3f94cfe.chunk.js": "/portfolio/static/js/3.d3f94cfe.chunk.js",
+    "static/js/3.d3f94cfe.chunk.js.map": "/portfolio/static/js/3.d3f94cfe.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.56190026.chunk.css.map": "/portfolio/static/css/main.56190026.chunk.css.map",
-    "static/js/2.5c9c18ec.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5c9c18ec.chunk.js.LICENSE.txt",
+    "static/js/2.42b4211e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.42b4211e.chunk.js.LICENSE.txt",
     "static/media/home.module.scss": "/portfolio/static/media/avatar.fe1e5997.jpg",
     "static/media/background-about.5b710410.jpg": "/portfolio/static/media/background-about.5b710410.jpg",
     "static/media/briefcase.d3af334a.svg": "/portfolio/static/media/briefcase.d3af334a.svg",
@@ -27,9 +27,9 @@
     "static/media/walkingDogHTMLCSS.6deb6e11.png": "/portfolio/static/media/walkingDogHTMLCSS.6deb6e11.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2606e8df.js",
-    "static/js/2.5c9c18ec.chunk.js",
+    "static/js/runtime-main.cb4b8653.js",
+    "static/js/2.42b4211e.chunk.js",
     "static/css/main.56190026.chunk.css",
-    "static/js/main.ca528b5c.chunk.js"
+    "static/js/main.8b4e2331.chunk.js"
   ]
 }
