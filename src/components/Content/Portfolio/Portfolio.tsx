@@ -3,6 +3,8 @@ import s from './portfolio.module.scss'
 import nodeProject from '../../../media/images/portfolio-page/node.png'
 import walkingDogHTMLCSS from '../../../media/images/portfolio-page/walkingDogHTMLCSS.png'
 import creativeAgencyHTMLCSS from '../../../media/images/portfolio-page/creativeAgencyHTMLCSS.png'
+import todolist from '../../../media/images/portfolio-page/todolist.png'
+import counter from '../../../media/images/portfolio-page/counter.png'
 
 export const Portfolio = () => {
     type FilterType = 'all' | 'react' | 'html' | 'node'
@@ -16,9 +18,9 @@ export const Portfolio = () => {
     type stateType = Array<workType>
 
     const state: stateType = [
-        {filter: 'react', link: '0', photo: 'fdf'},
-        {filter: 'react', link: '1', photo: 'fdf'},
-        {filter: 'react', link: '2', photo: 'fdf'},
+        {filter: 'react', link: 'https://ivanstupchyk.github.io/training-todolist/', photo: todolist},
+        {filter: 'react', link: '1', photo: 'https://ivanstupchyk.github.io/counter/'},
+        {filter: 'react', link: '2', photo: counter},
         {filter: 'html', link: 'https://ivanstupchyk.github.io/creative-agency/dist/index.html', photo: creativeAgencyHTMLCSS},
         {filter: 'html', link: 'https://ivanstupchyk.github.io/walking-dog/', photo: walkingDogHTMLCSS},
         {filter: 'node', link: 'https://github.com/IvanStupchyk/final-javascript-project', photo: nodeProject},
