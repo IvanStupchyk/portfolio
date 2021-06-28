@@ -19,8 +19,8 @@ export const Portfolio = () => {
 
     const state: stateType = [
         {filter: 'react', link: 'https://ivanstupchyk.github.io/training-todolist/', photo: todolist},
-        {filter: 'react', link: '1', photo: 'https://ivanstupchyk.github.io/counter/'},
-        {filter: 'react', link: '2', photo: counter},
+        {filter: 'react', link: 'https://ivanstupchyk.github.io/react-social-network/', photo: ''},
+        {filter: 'react', link: 'https://ivanstupchyk.github.io/counter/', photo: counter},
         {filter: 'html', link: 'https://ivanstupchyk.github.io/creative-agency/dist/index.html', photo: creativeAgencyHTMLCSS},
         {filter: 'html', link: 'https://ivanstupchyk.github.io/walking-dog/', photo: walkingDogHTMLCSS},
         {filter: 'node', link: 'https://github.com/IvanStupchyk/final-javascript-project', photo: nodeProject},
